@@ -6,7 +6,7 @@ Imports System                  'Stellt alles mögliche bereit (grundlegender Na
 
 'Von Dir muss angepasst werden...
 '1. Die Variable dataBasePath (Pfad zu Deiner .accdb Datenbank)
-'2. In Zeile 23 muss die Tabelle "tbl_Kartennummer" durch den Namen Deiner Tabelle ersetzt werden
+'2. In Zeile 24 muss die Tabelle "tbl_Kartennummer" durch den Namen Deiner Tabelle ersetzt werden
 
 Public Class Form1
 
