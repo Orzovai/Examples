@@ -17,7 +17,7 @@ Public Class Form1
         Dim dataBasePath As String                                  'Variable, die den Pfad zu Deiner Access Datenbank darstellt
 
         Try                                                          'Fängt eventuelle Fehler ab und leitet sie zu Catch weiter
-            dataBasePath = "C:\users\david\Desktop\ADO_VB_Example.accdb"                                           'Der Pfad zu Deiner Datenbank ! HIER DEINEN PFAD ANGEBEN !
+            dataBasePath = "C:\users\%%%%%\Desktop\ADO_VB_Example.accdb"                                           'Der Pfad zu Deiner Datenbank ! HIER DEINEN PFAD ANGEBEN !
             con.ConnectionString = String.Format("PROVIDER=Microsoft.ACE.OLEDB.12.0;DATA SOURCE={0}", dataBasePath)    'Der sogenannte ConnectionString
             con.Open()                                                  'Die Verbindung zur Datenbank wird geöffnet
 
